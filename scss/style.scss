@@ -5,4 +5,16 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	z-index: -1;
+	position: fixed;
+	left: 25%;
+	
+}
+h1 {
+	color: white;
+	z-index:+1;
+	position:fixed;
+	top: 50%;
+	text-align:center;
+	letter-spacing:1px;
 }
